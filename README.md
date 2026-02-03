@@ -6,9 +6,9 @@ The code is organized into two experiment branches:
 - **`CIFAR`** — CIFAR-10 image classification in **NVFlare** simulation with a FedAvg controller that aggregates per-client CodeCarbon logs and estimates communication emissions.
 - **`RetSeg`** — Retinal optic disk segmentation with a lightweight, standalone FedAvg-style loop (PyTorch Lightning) instrumented with **CodeCarbon**.
 
-> **Start here:** pick the branch that matches your use case:
-> - `git checkout CIFAR`
-> - `git checkout RetSeg`
+> **Start here:** pick the folder that you would like to use:
+> - `./CIFAR`
+> - `./RetSeg`
 
 ---
 
@@ -23,14 +23,14 @@ The goal is to make “green FL” results comparable across workloads, sites, a
 
 ---
 
-## Repository layout (by branch)
+## Repository layout
 
-### Branch: `CIFAR`
+### `CIFAR`
 - NVFlare job scripts for CIFAR-10 FL simulation (FedAvg)
 - Carbon-aware FedAvg controller that collects per-client emissions and estimates communication CO₂e
 - “Efficiency tier” variants (e.g., high/medium) to simulate slowdowns/overhead
 
-### Branch: `RetSeg`
+### `RetSeg`
 - Standalone 2D segmentation FL loop across multiple sites
 - CodeCarbon instrumentation around per-site training
 - TensorBoard logging + per-round checkpointing of the aggregated global model
