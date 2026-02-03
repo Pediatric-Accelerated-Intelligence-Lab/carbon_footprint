@@ -1,0 +1,8 @@
+nvflare
+codecarbon
+tensorboard
+torch
+torchvision
+pandas 
+matplotlib 
+seaborn
