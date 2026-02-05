@@ -41,10 +41,14 @@ The goal is to make “green FL” results comparable across workloads, sites, a
 
 If you use this code, please cite the accompanying paper:
 
-```bibtex
-@inproceedings{tapp_green_fl_2026,
-  title     = {Standardized Methods and Recommendations for Green Federated Learning},
-  author    = {Tapp, Austin and Roth, Holger R. and Xu, Ziyue and Parida, Abhijeet and Nisar, Hareem and Linguraru, Marius George},
-  booktitle = {ACM e-Energy '26},
-  year      = {2026}
+@misc{tapp2026standardized,
+  title         = {Standardized Methods and Recommendations for Green Federated Learning},
+  author        = {Tapp, Austin and Roth, Holger R. and Xu, Ziyue and Parida, Abhijeet and Nisar, Hareem and Linguraru, Marius George},
+  year          = {2026},
+  eprint        = {2602.00343},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.DC},
+  doi           = {10.48550/arXiv.2602.00343},
+  url           = {https://arxiv.org/abs/2602.00343}
 }
+
